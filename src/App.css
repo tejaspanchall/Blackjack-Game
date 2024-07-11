@@ -1,0 +1,60 @@
+body {
+  background-color: #4d7cab;
+}
+.kl {
+  text-align: center;
+}
+
+.ma {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.playerside, .dealerside {
+  padding: 2%;
+  background-color: #ADEFD1;
+  color: #00203F;
+  width: fit-content;
+  margin: 2%;
+  border-radius: 35px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #ADEFD1;
+  color: #00203F;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3f3b00;
+  color: #ADEFD1;
+}
+
+.winner-message {
+  color: #09ff00;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 20px;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
